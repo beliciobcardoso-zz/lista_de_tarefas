@@ -180,7 +180,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<File> _getFile() async {
     final directory = await getApplicationDocumentsDirectory();
-    return File("${directory.path}/dados.jason");
+    return File("${directory.path}/dados.json");
   }
 
   Future<File> _saveDados() async {
